@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Jevelin</title>
+
+    <style>
+        .accordion {
+            background-color: #e3e2e2;
+            color: black;
+            cursor: pointer;
+            font-family: sans-serif;
+            border-radius: 10px;
+            padding: 18px;
+            width: 80%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            transition: 0.4s;
+        }
+
+        .active,
+        .accordion:hover {
+            background-color: #3CE2AD;
+        }
+
+        .panel {
+            padding: 18px 18px;
+            display: none;
+            background-color: white;
+            overflow: hidden;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <div class="first-container">
+        <div class="nav-bar">
+            <nav>
+                <div class="nav-logo">
+                    <img src="https://jevelin.shufflehound.com/medical/wp-content/uploads/sites/23/2018/09/Logo-1-copy-9.png"
+                        alt="">
+                </div>
+
+                <div class="nav-links">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Departments</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">Contacts</a>
+
+                    <div class="social-icons-nav">
+
+                        <div class="fb-icon">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </div>
+
+                        <div class="twitter-icon">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </div>
+
+                        <div class="search-icon">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </div>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="slider-main-text">
+
+            <div class="slider-text-left">
+
+                <h1>Proffesional <span>Family Health Care</span></h1>
+                <p>CREATE YOUR MEDICAL WEBSITE USING JEVELIN</p>
+
+            </div>
+
+            <div class="health-icons">
+
+                <div class="heart-beat">
+                    <i class="fa fa-heartbeat" aria-hidden="true"></i>
+                </div>
+
+                <div class="first-aid">
+                    <i class="fa fa-medkit" aria-hidden="true"></i>
+                </div>
+
+                <div class="stethoscope">
+                    <i class="fa fa-stethoscope" aria-hidden="true"></i>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="three-boxes">
+
+            <div class="first-box">
+
+                <div class="box-text">
+                    <p class="first-box-num">1-800-600-380</p>
+                    <h3>EMERGENCY SERVICE</h3>
+                    <p class="first-box-para">Aliquam erat volutpat. Nullam imperdiet sapien felis, non lobortis odio
+                        mattis in. Quisque dapibus aliquet dictum. Integer dapibus ullamcorper est, ac .</p>
+                </div>
+
+                <div class="box-btn">
+                    <button>See More</button>
+                </div>
+
+            </div>
+
+            <div class="second-box">
+
+                <div class="box-icon">
+
+                    <i class="fa fa-calendar-minus-o" aria-hidden="true"></i>
+                    <h3>DO YOU WANT TO MAKE AN APPOINTMENT</h3>
+                    <p class="second-box-para">Aliquam erat volutpat. Nullam imperdiet sapien felis, non lobortis odio
+                        mattis in. Quisque dapibus aliquet dictum.</p>
+
+                </div>
+
+                <div class="box-btn">
+                    <button>See More</button>
+                </div>
+
+            </div>
+
+            <div class="third-box">
+
+                <div class="box-icon">
+
+                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                    <h3>OPENING HOURS</h3>
+                    <p class="third-box-para">Monday – Friday</p>
+                    <p>Saturtay – Sunday</p>
+
+                </div>
+
+                <div class="box-btn">
+                    <button>See More</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="second-container">
+
+        <div class="left-img">
+            <img src="https://jevelin.shufflehound.com/medical/wp-content/uploads/sites/23/2018/09/Layer-1200.png"
+                alt="">
+        </div>
+
+        <div class="right-details">
+
+            <div class="about-clinic">
+                <h1 class="clinic-heading"><span>About</span> Jevelin Clinic</h1>
+                <p class="clinic-care">PROFESSIONAL CARE</p>
+                <p class="about-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus orci ex, pulvinar
+                    nec finibus ut,
+                    cursus eget libero. In dictum sem non sapien condimentum aliquet. Nulla facilisi. Mauris efficitur
+                    dolor dolor, id porta nulla interdum vitae.</p>
+            </div>
+
+            <div class="right-accordion">
+                <button class="accordion">Medical Consulting</button>
+                <div class="panel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+
+                <button class="accordion">Laboratory Analysis</button>
+                <div class="panel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+
+                <button class="accordion">Diagnostic Clinic</button>
+                <div class="panel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="third-container">
+
+        <div class="help-heading">
+
+            <h1 class="how-can-we">How we can help you</h1>
+            <p class="read-more">READ MORE ABOUT OUR SERVICES</p>
+
+        </div>
+
+        <div class="inner-container-third">
+
+            <div class="help-line1">
+
+                <div class="service">
+                    <img src="https://jevelin.shufflehound.com/medical/wp-content/uploads/sites/23/2018/09/icon3_0004_%EF%81%AE.jpg"
+                        alt="">
+                    <div class="service-details">
+                        <h3>Ophthalmology</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed egestas
+                            faucibus, leo sapien laoreet massa, feugiat</p>
+                    </div>
+                </div>
+
+                <div class="service">
+                    <img src="https://jevelin.shufflehound.com/medical/wp-content/uploads/sites/23/2018/09/icon3_0005_%EF%88%9E.jpg"
+                        alt="">
+                    <div class="service-details">
+                        <h3>Cardiology</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed egestas
+                            faucibus, leo sapien laoreet massa, feugiat</p>
+                    </div>
+                </div>
+
+                <div class="service">
+                    <img src="https://jevelin.shufflehound.com/medical/wp-content/uploads/sites/23/2018/09/icon3_0003_%EF%83%B0.jpg"
+                        alt="">
+                    <div class="service-details">
+                        <h3>Dentistry</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed egestas
+                            faucibus, leo sapien laoreet massa, feugiat</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="help-line2">
+
+                <div class="service">
+                    <img src="https://jevelin.shufflehound.com/medical/wp-content/uploads/sites/23/2018/09/icon3_0002_%EF%89%8E.jpg"
+                        alt="">
+                    <div class="service-details">
+                        <h3>Ophthalmology</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed egestas
+                            faucibus, leo sapien laoreet massa, feugiat</p>
+                    </div>
+                </div>
+
+                <div class="service">
+                    <img src="https://jevelin.shufflehound.com/medical/wp-content/uploads/sites/23/2018/09/icon3_0001_%EF%83%B1.jpg"
+                        alt="">
+                    <div class="service-details">
+                        <h3>Cardiology</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed egestas
+                            faucibus, leo sapien laoreet massa, feugiat</p>
+                    </div>
+                </div>
+
+                <div class="service">
+                    <img src="https://jevelin.shufflehound.com/medical/wp-content/uploads/sites/23/2018/09/icon3_0000_%EF%88%9D.jpg"
+                        alt="">
+                    <div class="service-details">
+                        <h3>Dentistry</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed egestas
+                            faucibus, leo sapien laoreet massa, feugiat</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="fourth-container animate__backInLeft">
+
+        <div class="dentist-left animate__backInLeft">
+
+            <h2 class="jenna-title"><span class="jenna-title-spanned">Jenna</span> Berg</h2>
+            <p class="jenna-position">PROFESSIONAL DENTIST</p>
+            <p class="jenna-first-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus orci ex, pulvinar nec finibus ut, cursus eget libero. In dictum sem</p>
+            <p class="jenna-second-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus orci ex, pulvinar nec finibus ut, cursus eget libero. In dictum sem non sapien condimentum aliquet. Nulla facilisi. Mauris efficitur dolor dolor, id porta nulla interdum vitae.</p>
+            <button class="jenna-btn">View All Doctors</button>
+        </div>
+
+        <div class="dentist-right-img">
+            <img src="https://jevelin.shufflehound.com/medical/wp-content/uploads/sites/23/2018/09/Layer-1186-copy.jpg"
+                alt="">
+        </div>
+    </div>
+
+
+    <div class="fifth-container">
+
+        <div class="doctors-quantity">
+    
+          <h1 class="count">53</h1>
+          <p>____</p>
+          <h4><span>Certified</span> Doctors</h4>
+
+        </div>
+
+        <div class="services-quantity">
+
+            <h1 class="count">48</h1>
+            <p>____</p>
+            <h4><span>Medical</span> Services</h4>
+              
+        </div>
+
+        <div class="affiliates-quantity">
+
+            <h1 class="count">12</h1>
+            <p>____</p>
+            <h4><span>Different</span>Affiliates</h4>
+
+        </div>
+
+        <div class="offered-programs">
+
+            <h1 class="count">96</h1>
+            <p>____</p>
+            <h4><span>Offered</span> Programs</h4>
+
+        </div>
+    </div>
+
+    <div class="sixth-container">
+        <div class="sixth-container-heading">
+
+        <h1>Our Special Offers</h1>
+        <p>START TO BE HEALTHY TODAY</p>
+
+    </div>
+         
+        <div class="sixth-container-three-boxes">
+
+        <div class="three-boxes">
+
+            <div class="sixth-container-first-box">
+
+                <div class="box-text-allergy">
+                    <h3>Allergy Check</h3>
+                    <h1 class="allergy-price"><span>$</span> 255</h1>
+                    <p>10 treatments</p>
+
+                </div> 
+
+                    <div class="checkup-details">
+                        <p>Allergy Test</p>
+                        <p>Consultation</p>
+                        <p>Treatments</p>
+                        <p>10 Procedures</p>
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                        <p>Test Results</p>
+
+                    </div>
+
+             
+
+                <div class="allergy-btn">
+                    <button>See More</button>
+                </div>
+
+            </div>
+
+            <div class="sixth-container-second-box">
+
+                <div class="box-text-allergy">
+                    <h3>Eye Checkup</h3>
+                    <h1 class="allergy-price"><span>$</span>108</h1>
+                    <p>3 treatments</p>
+
+                </div> 
+
+                    <div class="checkup-details">
+                        <p>Refraction</p>
+                        <p>Retinal Examination</p>
+                        <p>External Examination</p>
+                        <p>9 Procedures</p>
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                        <p>Full Closure</p>
+
+                    </div>
+
+                <div class="eye-btn">
+                    <button>See More</button>
+                </div>
+
+            </div>
+
+            <div class="sixth-container-third-box">
+
+                <div class="box-text-allergy">
+                    <h3>Dental Care</h3>
+                    <h1 class="allergy-price"><span>$</span>320</h1>
+                    <p>6 treatments</p>
+
+                </div> 
+
+                    <div class="checkup-details">
+                        <p>Gum Care</p>
+                        <p>Consultation</p>
+                        <p>Treatments</p>
+                        <p>6 Procedures</p>
+                        <p>Oral Hygiene</p>
+                        <p>Full Closure</p>
+
+                    </div>
+
+                <div class="dental-btn">
+                    <button>See More</button>
+                </div>
+
+            </div>
+
+        </div>
+     </div>
+
+</div>
+
+<div class="seventh-container">
+    <div class="faq-section">
+
+          <div class="faq-left">
+            <h1>Frequently Asked <span class="faq-left-span">Questions</span></h1>
+            <button>View All</button>
+          </div>
+
+          <div class="faq-right">
+            <div class="right-accordion">
+                <button class="accordion">How to make an appointment?</button>
+                <div class="panel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+
+                <button class="accordion">What will my insurance cover for me?</button>
+                <div class="panel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+
+                <button class="accordion">Is there a parking place next to the clinic?</button>
+                <div class="panel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+
+                <button class="accordion">How can I make a home apointment?</button>
+                <div class="panel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+          </div>
+    </div>
+</div>
+
+<div class="eighth-container">
+    <div class="address">
+        <div class="contact-icon">
+            <i class="fa-solid fa-location-dot"></i>
+        </div>
+
+        <div class="contact-text">
+            <h4>ADDRESS</h4>
+            <p>Street number 5, Town, Country</p>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+
+
+    <script>
+
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+    </script>
+
+</body>
+
+</html>
